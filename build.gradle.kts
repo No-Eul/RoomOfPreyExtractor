@@ -11,3 +11,7 @@ repositories {
 
 dependencies {
 }
+
+tasks.jar {
+	from("LICENSE.txt")
+}
